@@ -1,0 +1,4 @@
+Welcome to <%= $facts['fqdn'] %> - this one uses EPP
+
+IP: <%= $facts['ipaddress'] %>
+Managed user: <%= $review::user %>
